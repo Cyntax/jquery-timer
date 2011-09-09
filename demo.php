@@ -4,6 +4,18 @@
 		die();
 	}
 ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>jQuery Timer Plugin</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="jquery timer plugin" />
+	<meta name="keywords" content="javascript, jquery, plugin, timer, setTimeout" />
+	<style type="text/css">
+	</style>
+</head>
+
+<body>
 <div id="content">
 	<div class="centered" id="content-holder">
 		
@@ -71,5 +83,7 @@ $(document).ready(function() {
 
 });
 </script>
+</body>
 
+</html>
 
