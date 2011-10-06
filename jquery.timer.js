@@ -1,7 +1,7 @@
 /**
  * jQuery Timer Plugin
  * Project page - http://code.cyntaxtech.com/plugins/jquery-timer
- * Version 0.1
+ * Version 0.1.1
  * Copyright (c) 2011 Cyntax Technologies - http://cyntaxtech.com
  * dependencies: jquery.plugin.js
  * Licensed under the Cyntax Open Technology License
@@ -47,8 +47,6 @@
 					};
 					if (typeof this.options.post == "string" && typeof this.options.post != "")
 						ajax_options.data = this.options.post;
-					console.log(this.options.url);
-					console.log(ajax_options);
 					$.ajax(ajax_options);
 				}
 				if ( this.options.repeat && this.timer_info.state == 1 &&
