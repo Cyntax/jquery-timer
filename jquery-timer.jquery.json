@@ -1,0 +1,32 @@
+{
+    "name": "jquery-timer",
+    "version": "0.1.1",
+    "title": "jQuery.timer()",
+    "author": {
+        "name": "Cyntax Technologies Dev Team",
+        "url": "https://github.com/cyntax"
+    },
+    "licenses": [
+        {
+            "type": "Cyntax Open Technology",
+            "url": "http://code.cyntaxtech.com/licenses/cyntax-open-technology"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.5"
+    },
+    "description": "The purpose of the timer plugin is to provide a nicer way to use setTimeout function in webpages. The timer plugin can be used like any other jQuery plugin and can be attached to any object in the webpage (however, it needs to be a DOM element if the timer functionality is used to load contents from a url).",
+    "keywords": [
+        "timer",
+        "setTimeout",
+        "delay",
+        "interval"
+    ],
+    "homepage": "http://code.cyntaxtech.com/plugins/jquery-timer",
+    "maintainers": [
+        {
+            "name": "Cyntax Technologies Dev Team",
+            "url": "http://code.cyntaxtech.com"
+        }
+    ]
+}
